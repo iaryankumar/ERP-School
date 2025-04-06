@@ -11,7 +11,7 @@ const port = 8080;
 
 db()
 app.use(cors({
-    origin:['http://localhost:5173','http://localhost:5174','http://localhost:5175','https://admin-chi-gilt.vercel.app'],
+    origin:['https://admin-chi-gilt.vercel.app','https://students-iota-three.vercel.app','https://teachers-steel.vercel.app'],
     credentials:true
 }));
 app.use(express.json());
