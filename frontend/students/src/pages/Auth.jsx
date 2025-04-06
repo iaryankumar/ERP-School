@@ -24,10 +24,10 @@ const Auth = () => {
         } catch (error) {
             toast.error(error.response.data.message ,{position:'top-center'})
         }
-    }
+    } 
     return (
         <>
-            <div className='h-screen w-full flex items-center justify-center'>
+            <div className='h-[100vh] w-full flex items-center justify-center'>
 
                 <div className='h-max md:w-[35%] w-[95%] px-6 py-9 shadow rounded-xl border border-borderPrimary'>
                     <h1 className='font-primary text-3xl font-bold text-blue-600'>Login</h1>
