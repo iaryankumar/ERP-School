@@ -3,7 +3,7 @@ import { loader } from "../store/AuthSlice";
 
 
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:8080',
+    baseURL: 'https://erp-school-backend.onrender.com',
     withCredentials: true,
     cors: true,
     headers: {

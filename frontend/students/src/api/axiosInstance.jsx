@@ -2,7 +2,7 @@ import axios from "axios";
 import { loader } from "../store/DataSlice";
 
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:8080',
+    baseURL: 'https://erp-school-backend.onrender.com',
     withCredentials: true,
     headers: {
         'Content-Type': 'application/json'
